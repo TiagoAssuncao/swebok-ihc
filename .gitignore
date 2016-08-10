@@ -54,12 +54,8 @@ acs-*.bib
 # cprotect
 *.cpt
 
-# fixme
-*.lox
-
-#(r)(e)ledmac/(r)(e)ledpar
+#(e)ledmac/(e)ledpar
 *.end
-*.?end
 *.[1-9]
 *.[1-9][0-9]
 *.[1-9][0-9][0-9]
@@ -104,8 +100,6 @@ acs-*.bib
 
 # minitoc
 *.maf
-*.mlf
-*.mlt
 *.mtc
 *.mtc[0-9]
 *.mtc[1-9][0-9]
@@ -137,12 +131,12 @@ sympy-plots-for-*.tex/
 *.upa
 *.upb
 
-# pythontex
+#pythontex
 *.pytxcode
 pythontex-files-*/
 
-# thmtools
-*.loe
+# Texpad
+.texpadtmp
 
 # TikZ & PGF
 *.dpth
@@ -158,12 +152,17 @@ pythontex-files-*/
 # xypic precompiled matrices
 *.xyc
 
+# WinEdt
+*.bak
+*.sav
+
 # endfloat
 *.ttt
 *.fff
 
 # Latexian
 TSWLatexianTemp*
+<<<<<<< HEAD
 
 ## Editors:
 # WinEdt
